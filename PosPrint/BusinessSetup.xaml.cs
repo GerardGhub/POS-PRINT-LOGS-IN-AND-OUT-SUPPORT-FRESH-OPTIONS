@@ -32,7 +32,7 @@ namespace PosPrint
         }
         private void ExecuteSomeData()
         {
-            MessageBox.Show("Sample Data 200");
+        
 
             Business.Businesses.Add(new Business
             {

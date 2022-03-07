@@ -21,7 +21,7 @@ namespace PosPrint
         {
             InitializeComponent();
             var businessInfo = Model.Business.Businesses.FirstOrDefault();
-            Title = $"POS Print: This software is licensed to {businessInfo.BusinessName}";
+            Title = "LOGS MODULE MONITORING";
 
             txtPrice1.Text = "121";
             txtDescription.Text = "YEllow cab";
@@ -134,9 +134,9 @@ namespace PosPrint
             sb.AppendLine(" ");
             sb.AppendLine(("STORE BRANCH: FRESH OPTIONS MEXICO  "));
             sb.AppendLine(" ");
-            sb.AppendLine(("STORE MANAGER: Gerard Mabanganas").PadLeft(20));
+            sb.AppendLine(("STORE MANAGER:       ").PadLeft(20));
             sb.AppendLine(("STORE MANAGER SIGNATORY.:  "));
-            sb.AppendLine(("TEL: 09650695254 "));
+            //sb.AppendLine(("TEL: 09650695254 "));
             sb.AppendLine(" ");
             sb.Append(("DATE").PadRight(8));
             sb.AppendLine(": " + DateTime.Now);
