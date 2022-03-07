@@ -23,11 +23,32 @@ namespace PosPrint
         public BusinessSetup()
         {
             InitializeComponent();
-            txtBUsinessName.Text = "FRESH OPTIONS MEXICO";
+            txtBUsinessName.Text = "FRESH OPTIONS";
             txtPhone.Text = "23232323";
             txtLocation.Text = "MEXICO PAMPANGA";
             txtBranch.Text = "MEXICO";
+
+            this.ExecuteSomeData();
         }
+        private void ExecuteSomeData()
+        {
+            MessageBox.Show("Sample Data 200");
+
+            Business.Businesses.Add(new Business
+            {
+
+                BusinessName = txtBUsinessName.Text,
+                Branch = txtBranch.Text,
+                Location = txtLocation.Text,
+                Phone = txtPhone.Text
+
+            });
+
+            this.Hide();
+            var main = new MainWindow();
+            main.Show();
+        }
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
