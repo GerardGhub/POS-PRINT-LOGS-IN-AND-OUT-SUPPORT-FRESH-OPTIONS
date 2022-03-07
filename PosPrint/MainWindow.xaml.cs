@@ -104,7 +104,7 @@ namespace PosPrint
         public void Print()
         {
             var doc = new PrintDocument();
-            var paperSize = new PaperSize("Custom", 520, 320);
+            var paperSize = new PaperSize("Custom", 520, 220);
             doc.DefaultPageSettings.PaperSize = paperSize;
             //doc.DefaultPageSettings.PaperSize.Kind = PaperKind.Custom;
             //doc.DefaultPageSettings.PaperSize.Height = 820;
@@ -132,7 +132,7 @@ namespace PosPrint
             //replace with item.Branch
             sb.AppendLine((business.BusinessName));
             sb.AppendLine(" ");
-            sb.AppendLine(("STORE BRANCH: FRESH OPTIONS MEXICO  "));
+            sb.AppendLine(("STORE BRANCH: FRESH OPTIONS"));
             sb.AppendLine(" ");
             sb.AppendLine(("STORE MANAGER:       ").PadLeft(20));
             sb.AppendLine(("STORE MANAGER SIGNATORY.:  "));
