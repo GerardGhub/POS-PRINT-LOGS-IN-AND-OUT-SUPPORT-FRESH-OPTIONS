@@ -21,7 +21,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="257,73,0,0" TextWrapping="Wrap" Text="Quantity" VerticalAlignment="Top" Visibility="Hidden"/>
         <TextBlock HorizontalAlignment="Left" Margin="257,140,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" Visibility="Hidden"/>
         <Button Content="" Margin="827,216,13.6,0" VerticalAlignment="Top" Click="Button_Click" Visibility="Hidden"/>
-        <Button Content="Print Reciept" Margin="90,491,54.6,0" VerticalAlignment="Top" Click="Button_Click_1" Height="99" FontSize="50"/>
+        <Button Content="Print Reciept" Margin="87,491,57.4,0" VerticalAlignment="Top" Click="Button_Click_1" Height="99" FontSize="50" Background="#FFEEF8FF"/>
         <Label Content="0.00"  FontWeight="Bold" HorizontalAlignment="Left" Margin="782,491,0,0" VerticalAlignment="Top" Width="120" Name="lbTotal" RenderTransformOrigin="1.191,0.723"/>
         <DockPanel Margin="0,0,915.6,10"/>
         <TextBox x:Name="txtPrice1" HorizontalAlignment="Left" Height="23" Margin="90,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>

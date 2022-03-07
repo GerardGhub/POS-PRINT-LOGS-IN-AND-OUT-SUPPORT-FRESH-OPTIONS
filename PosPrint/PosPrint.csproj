@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>678078-light-bulb-256.ico</ApplicationIcon>
+    <ApplicationIcon>Capture.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
@@ -122,6 +122,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="678078-light-bulb-256.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Capture.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
